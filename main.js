@@ -135,16 +135,12 @@ document.getElementsByTagName("BODY")[0].addEventListener("click", function(e) {
   } else if (e.target.matches("#quoteListTwo a")){
     document.getElementById("stopQuotes").innerHTML = "";
     
-  // Window close
+  
   } 
 
   });
 
-  // else if (e.target.matches("#closeWindow")){
-  //   window.open("'','_parent',''");
-  //   window.close();
-    
-  // } 
+  
 
 // Link back to Quotes page
 $("#myHref").on('click', function(event) {
