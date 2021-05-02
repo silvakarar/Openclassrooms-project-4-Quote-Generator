@@ -9,5 +9,6 @@ Each quote is a combination of at least 3 sentence fragments (beginning, middle,
 The quotes should be coherent.
 
 Step 2:
+
 Select the number of quotes generated (between 1 and 5)
 Choose between 2 types of quote generators.
