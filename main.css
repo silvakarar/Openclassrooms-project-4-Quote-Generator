@@ -20,6 +20,7 @@ p {
 }
 
 .container {
+  margin-top: 100px 0;
   text-align: center;
   padding: 50px;
 }

@@ -36,7 +36,6 @@ class Quote {
 };
 
 // First quote box array
-
 let beginning1 = [
   "Let’s go to",
   "Let’s travel to",
