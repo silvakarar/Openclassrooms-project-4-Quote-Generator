@@ -1,10 +1,21 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
 
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
 
 h1 {
   margin-top: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   margin-bottom: none;
+ 
 }
 
 h3 {
@@ -20,22 +31,25 @@ p {
 }
 
 .container {
-  margin-top: 100px 0;
-  text-align: center;
-  padding: 50px;
-}
+ text-align: center;
 
+
+}
+.firstRow {
+  margin-top: 400px;
+}
 hr {
-  width: 200px;
+
   border: 1px solid black;
-  margin-bottom: 80px;
+ 
 }
 
 .quote-box {
+  margin-top: 80px;
   background-color: white;
   border-radius: 10px;
   padding: 25px;
-  margin-top: 15px;
+
 }
 
 
@@ -46,9 +60,9 @@ hr {
   background-color: white;
   border: 2px solid white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 40px;
   margin-top: 15px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   transform: scale(1);
@@ -92,6 +106,9 @@ hr {
   border-radius: 10px;
   font-size: 0.8em;
   font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
    
 }
 
@@ -122,6 +139,7 @@ a:focus {
   transform: scale(1);
   transition-property: transform;
   transition-duration: 1000ms;
+ 
 }
 
 .thanksText {
